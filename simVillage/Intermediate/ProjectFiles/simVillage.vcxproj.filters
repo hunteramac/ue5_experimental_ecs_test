@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\simVillage.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\simVillage.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\simVillageEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\simVillage">
+      <UniqueIdentifier>{261E361B-3FD0-3C0F-978A-FF3153CABB00}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\simVillage\simVillage.Build.cs">
+      <Filter>Source\simVillage</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\simVillage\simVillage.cpp">
+      <Filter>Source\simVillage</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\simVillage\simVillage.h">
+      <Filter>Source\simVillage</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\simVillage\simVillageGameModeBase.cpp">
+      <Filter>Source\simVillage</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\simVillage\simVillageGameModeBase.h">
+      <Filter>Source\simVillage</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
