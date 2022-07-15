@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "simVillage",
-			"Path": "C:\\Users\\hunte\\OneDrive\\cloud_UE_projects\\simVillage\\simVillage\\Source\\simVillage.Target.cs",
+			"Path": "C:\\Users\\hunte\\OneDrive\\cloud_UE_projects\\UE5_simVillage\\simVillage\\Source\\simVillage.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "simVillageEditor",
-			"Path": "C:\\Users\\hunte\\OneDrive\\cloud_UE_projects\\simVillage\\simVillage\\Source\\simVillageEditor.Target.cs",
+			"Path": "C:\\Users\\hunte\\OneDrive\\cloud_UE_projects\\UE5_simVillage\\simVillage\\Source\\simVillageEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

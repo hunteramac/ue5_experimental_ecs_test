@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\hunte\\OneDrive\\cloud_UE_projects\\simVillage\\simVillage\\Source\\simVillage\\simVillage.Build.cs",
-		"C:\\Users\\hunte\\OneDrive\\cloud_UE_projects\\simVillage\\simVillage\\Source\\simVillage.Target.cs",
-		"C:\\Users\\hunte\\OneDrive\\cloud_UE_projects\\simVillage\\simVillage\\Source\\simVillageEditor.Target.cs"
+		"C:\\Users\\hunte\\OneDrive\\cloud_UE_projects\\UE5_simVillage\\simVillage\\Source\\simVillage\\simVillage.Build.cs",
+		"C:\\Users\\hunte\\OneDrive\\cloud_UE_projects\\UE5_simVillage\\simVillage\\Source\\simVillage.Target.cs",
+		"C:\\Users\\hunte\\OneDrive\\cloud_UE_projects\\UE5_simVillage\\simVillage\\Source\\simVillageEditor.Target.cs"
 	],
 	"EngineVersion": "5.0.2"
 }

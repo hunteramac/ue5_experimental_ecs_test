@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\hunte\\onedrive\\cloud_ue_projects\\ue5_simvillage\\simvillage\\source\\simvillage\\simvillage.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\hunte\\onedrive\\cloud_ue_projects\\ue5_simvillage\\simvillage\\intermediate\\build\\win64\\simvillageeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\hunte\\onedrive\\cloud_ue_projects\\ue5_simvillage\\simvillage\\intermediate\\build\\win64\\unrealeditor\\development\\simvillage\\definitions.simvillage.h",
+            "c:\\users\\hunte\\onedrive\\cloud_ue_projects\\ue5_simvillage\\simvillage\\source\\simvillage\\simvillage.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

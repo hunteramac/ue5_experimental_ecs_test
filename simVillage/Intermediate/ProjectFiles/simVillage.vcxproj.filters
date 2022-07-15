@@ -11,6 +11,7 @@
     <None Include="..\..\Source\simVillageEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -23,9 +24,21 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <Filter Include="Config\HoloLens">
+      <UniqueIdentifier>{4C8DD267-CDE7-336F-8602-F5F485D22BAB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\HoloLens\HoloLensEngine.ini">
+      <Filter>Config\HoloLens</Filter>
+    </None>
     <Filter Include="Source\simVillage">
       <UniqueIdentifier>{261E361B-3FD0-3C0F-978A-FF3153CABB00}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\simVillage\SimpleRandomMovementTrait.cpp">
+      <Filter>Source\simVillage</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\simVillage\SimpleRandomMovementTrait.h">
+      <Filter>Source\simVillage</Filter>
+    </ClInclude>
     <None Include="..\..\Source\simVillage\simVillage.Build.cs">
       <Filter>Source\simVillage</Filter>
     </None>

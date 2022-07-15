@@ -7,11 +7,17 @@
 #include "simVillageGameModeBase.generated.h"
 
 /**
- * 
+ *
  */
 UCLASS()
 class SIMVILLAGE_API AsimVillageGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
-	
+
+
+public:
+	AsimVillageGameModeBase();
+	virtual void InitGame(const FString& MapName, const FString& Options, FString& ErrorMessage);
+
+
 };

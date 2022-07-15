@@ -1,7 +1,8 @@
-C:\Users\hunte\OneDrive\cloud_UE_projects\simVillage\simVillage\Source\simVillage\simVillage.cpp
+C:\Users\hunte\OneDrive\cloud_UE_projects\UE5_simVillage\simVillage\Source\simVillage\simVillage.cpp
 /I .
-/I C:\Users\hunte\OneDrive\cloud_UE_projects\simVillage\simVillage\Intermediate\Build\Win64\UnrealEditor\Inc\simVillage
-/I C:\Users\hunte\OneDrive\cloud_UE_projects\simVillage\simVillage\Source
+/I ..\Plugins\Runtime\MassGameplay\Intermediate\Build\Win64\UnrealEditor\Inc\MassSpawner
+/I ..\Plugins\Runtime\MassGameplay\Source
+/I ..\Plugins\Runtime\MassGameplay\Source\MassSpawner\Public
 /I Runtime
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
@@ -253,6 +254,67 @@ C:\Users\hunte\OneDrive\cloud_UE_projects\simVillage\simVillage\Source\simVillag
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationDataController
 /I Developer\AnimationDataController\Public
+/I ..\Plugins\Runtime\MassEntity\Intermediate\Build\Win64\UnrealEditor\Inc\MassEntity
+/I ..\Plugins\Runtime\MassEntity\Source
+/I ..\Plugins\Runtime\MassEntity\Source\MassEntity\Public
+/I ..\Plugins\Experimental\StructUtils\Intermediate\Build\Win64\UnrealEditor\Inc\StructUtils
+/I ..\Plugins\Experimental\StructUtils\Source
+/I ..\Plugins\Experimental\StructUtils\Source\StructUtils\Public
+/I ..\Plugins\Runtime\MassGameplay\Intermediate\Build\Win64\UnrealEditor\Inc\MassCommon
+/I ..\Plugins\Runtime\MassGameplay\Source\MassCommon\Public
+/I ..\Plugins\Runtime\MassGameplay\Intermediate\Build\Win64\UnrealEditor\Inc\MassSimulation
+/I ..\Plugins\Runtime\MassGameplay\Source\MassSimulation\Public
+/I ..\Plugins\Runtime\ZoneGraph\Intermediate\Build\Win64\UnrealEditor\Inc\ZoneGraph
+/I ..\Plugins\Runtime\ZoneGraph\Source
+/I ..\Plugins\Runtime\ZoneGraph\Source\ZoneGraph\Public
+/I C:\Users\hunte\OneDrive\cloud_UE_projects\UE5_simVillage\simVillage\Intermediate\Build\Win64\UnrealEditor\Inc\simVillage
+/I C:\Users\hunte\OneDrive\cloud_UE_projects\UE5_simVillage\simVillage\Source
+/I ..\Plugins\AI\MassCrowd\Intermediate\Build\Win64\UnrealEditor\Inc\MassCrowd
+/I ..\Plugins\AI\MassCrowd\Source
+/I ..\Plugins\AI\MassCrowd\Source\MassCrowd\Public
+/I ..\Plugins\Runtime\MassGameplay\Intermediate\Build\Win64\UnrealEditor\Inc\MassActors
+/I ..\Plugins\Runtime\MassGameplay\Source\MassActors\Public
+/I ..\Plugins\Runtime\MassGameplay\Intermediate\Build\Win64\UnrealEditor\Inc\MassMovement
+/I ..\Plugins\Runtime\MassGameplay\Source\MassMovement\Public
+/I ..\Plugins\Runtime\MassGameplay\Intermediate\Build\Win64\UnrealEditor\Inc\MassLOD
+/I ..\Plugins\Runtime\MassGameplay\Source\MassLOD\Public
+/I ..\Plugins\Runtime\MassGameplay\Intermediate\Build\Win64\UnrealEditor\Inc\MassSignals
+/I ..\Plugins\Runtime\MassGameplay\Source\MassSignals\Public
+/I ..\Plugins\Runtime\ZoneGraphAnnotations\Intermediate\Build\Win64\UnrealEditor\Inc\ZoneGraphAnnotations
+/I ..\Plugins\Runtime\ZoneGraphAnnotations\Source
+/I ..\Plugins\Runtime\ZoneGraphAnnotations\Source\ZoneGraphAnnotations\Public
+/I ..\Plugins\Runtime\ZoneGraph\Intermediate\Build\Win64\UnrealEditor\Inc\ZoneGraphDebug
+/I ..\Plugins\Runtime\ZoneGraph\Source\ZoneGraphDebug\Public
+/I ..\Plugins\Runtime\MassGameplay\Intermediate\Build\Win64\UnrealEditor\Inc\MassReplication
+/I ..\Plugins\Runtime\MassGameplay\Source\MassReplication\Public
+/I ..\Plugins\AI\MassAI\Intermediate\Build\Win64\UnrealEditor\Inc\MassNavigation
+/I ..\Plugins\AI\MassAI\Source
+/I ..\Plugins\AI\MassAI\Source\MassNavigation\Public
+/I ..\Plugins\AI\MassAI\Intermediate\Build\Win64\UnrealEditor\Inc\MassZoneGraphNavigation
+/I ..\Plugins\AI\MassAI\Source\MassZoneGraphNavigation\Public
+/I ..\Plugins\AI\MassAI\Intermediate\Build\Win64\UnrealEditor\Inc\MassAIReplication
+/I ..\Plugins\AI\MassAI\Source\MassAIReplication\Public
+/I ..\Plugins\Runtime\MassGameplay\Intermediate\Build\Win64\UnrealEditor\Inc\MassRepresentation
+/I ..\Plugins\Runtime\MassGameplay\Source\MassRepresentation\Public
+/I ..\Plugins\AI\MassAI\Intermediate\Build\Win64\UnrealEditor\Inc\MassAIBehavior
+/I ..\Plugins\AI\MassAI\Source\MassAIBehavior\Public
+/I ..\Plugins\Runtime\MassGameplay\Intermediate\Build\Win64\UnrealEditor\Inc\MassSmartObjects
+/I ..\Plugins\Runtime\MassGameplay\Source\MassSmartObjects\Public
+/I ..\Plugins\Runtime\SmartObjects\Intermediate\Build\Win64\UnrealEditor\Inc\SmartObjectsModule
+/I ..\Plugins\Runtime\SmartObjects\Source
+/I ..\Plugins\Runtime\SmartObjects\Source\SmartObjectsModule\Public
+/I ..\Plugins\Experimental\GameplayBehaviors\Intermediate\Build\Win64\UnrealEditor\Inc\GameplayBehaviorsModule
+/I ..\Plugins\Experimental\GameplayBehaviors\Source
+/I ..\Plugins\Experimental\GameplayBehaviors\Source\GameplayBehaviorsModule\Public
+/I ..\Plugins\Runtime\GameplayAbilities\Intermediate\Build\Win64\UnrealEditor\Inc\GameplayAbilities
+/I ..\Plugins\Runtime\GameplayAbilities\Source
+/I ..\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public
+/I ..\Plugins\Runtime\DataRegistry\Intermediate\Build\Win64\UnrealEditor\Inc\DataRegistry
+/I ..\Plugins\Runtime\DataRegistry\Source
+/I ..\Plugins\Runtime\DataRegistry\Source\DataRegistry\Public
+/I ..\Plugins\Runtime\StateTree\Intermediate\Build\Win64\UnrealEditor\Inc\StateTreeModule
+/I ..\Plugins\Runtime\StateTree\Source
+/I ..\Plugins\Runtime\StateTree\Source\StateTreeModule\Public
 /I ThirdParty\mimalloc\include
 /I ThirdParty\LibTiff\Source\Win64
 /I ThirdParty\LibTiff\Source
@@ -267,18 +329,18 @@ C:\Users\hunte\OneDrive\cloud_UE_projects\simVillage\simVillage\Source\simVillag
 /I ThirdParty\PhysX3\PhysX_3.4\Include\common
 /I ThirdParty\PhysX3\PhysX_3.4\Include\extensions
 /I ThirdParty\PhysX3\PhysX_3.4\Include\geometry
-/I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\INCLUDE"
+/I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-/FI"C:\Users\hunte\OneDrive\cloud_UE_projects\simVillage\simVillage\Intermediate\Build\Win64\simVillageEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/FI"C:\Users\hunte\OneDrive\cloud_UE_projects\simVillage\simVillage\Intermediate\Build\Win64\UnrealEditor\Development\simVillage\Definitions.simVillage.h"
-/Yu"C:\Users\hunte\OneDrive\cloud_UE_projects\simVillage\simVillage\Intermediate\Build\Win64\simVillageEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\hunte\OneDrive\cloud_UE_projects\simVillage\simVillage\Intermediate\Build\Win64\simVillageEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-/Fo"C:\Users\hunte\OneDrive\cloud_UE_projects\simVillage\simVillage\Intermediate\Build\Win64\UnrealEditor\Development\simVillage\simVillage.cpp.obj"
-/sourceDependencies C:\Users\hunte\OneDrive\cloud_UE_projects\simVillage\simVillage\Intermediate\Build\Win64\UnrealEditor\Development\simVillage\simVillage.cpp.json
+/FI"C:\Users\hunte\OneDrive\cloud_UE_projects\UE5_simVillage\simVillage\Intermediate\Build\Win64\simVillageEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/FI"C:\Users\hunte\OneDrive\cloud_UE_projects\UE5_simVillage\simVillage\Intermediate\Build\Win64\UnrealEditor\Development\simVillage\Definitions.simVillage.h"
+/Yu"C:\Users\hunte\OneDrive\cloud_UE_projects\UE5_simVillage\simVillage\Intermediate\Build\Win64\simVillageEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\hunte\OneDrive\cloud_UE_projects\UE5_simVillage\simVillage\Intermediate\Build\Win64\simVillageEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+/Fo"C:\Users\hunte\OneDrive\cloud_UE_projects\UE5_simVillage\simVillage\Intermediate\Build\Win64\UnrealEditor\Development\simVillage\simVillage.cpp.obj"
+/sourceDependencies C:\Users\hunte\OneDrive\cloud_UE_projects\UE5_simVillage\simVillage\Intermediate\Build\Win64\UnrealEditor\Development\simVillage\simVillage.cpp.json
 /Zc:inline
 /nologo
 /Oi

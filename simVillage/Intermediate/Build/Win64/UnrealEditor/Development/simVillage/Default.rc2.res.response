@@ -2,7 +2,7 @@
 /D_WIN64
 /l 0x409
 /I "."
-/I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\INCLUDE"
+/I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
@@ -63,5 +63,5 @@
 /DBUILD_ICON_FILE_NAME="\"..\\Build\\Windows\\Resources\\Default.ico\""
 /DPROJECT_COPYRIGHT_STRING="Fill out your copyright notice in the Description page of Project Settings."
 /DPROJECT_PRODUCT_IDENTIFIER=simVillage
-/fo "C:\Users\hunte\OneDrive\cloud_UE_projects\simVillage\simVillage\Intermediate\Build\Win64\UnrealEditor\Development\simVillage\Default.rc2.res"
+/fo "C:\Users\hunte\OneDrive\cloud_UE_projects\UE5_simVillage\simVillage\Intermediate\Build\Win64\UnrealEditor\Development\simVillage\Default.rc2.res"
 "..\Build\Windows\Resources\Default.rc2"

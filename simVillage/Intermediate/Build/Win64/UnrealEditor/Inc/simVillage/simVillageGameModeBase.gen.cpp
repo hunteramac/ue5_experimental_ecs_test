@@ -37,7 +37,7 @@ void EmptyLinkFunctionForGeneratedCodesimVillageGameModeBase() {}
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AsimVillageGameModeBase_Statics::Class_MetaDataParams[] = {
-		{ "Comment", "/**\n * \n */" },
+		{ "Comment", "/**\n *\n */" },
 		{ "HideCategories", "Info Rendering MovementReplication Replication Actor Input Movement Collision Rendering HLOD WorldPartition DataLayers Transformation" },
 		{ "IncludePath", "simVillageGameModeBase.h" },
 		{ "ModuleRelativePath", "simVillageGameModeBase.h" },
@@ -80,9 +80,9 @@ void EmptyLinkFunctionForGeneratedCodesimVillageGameModeBase() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_simVillage_Source_simVillage_simVillageGameModeBase_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AsimVillageGameModeBase, AsimVillageGameModeBase::StaticClass, TEXT("AsimVillageGameModeBase"), &Z_Registration_Info_UClass_AsimVillageGameModeBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AsimVillageGameModeBase), 1193404360U) },
+		{ Z_Construct_UClass_AsimVillageGameModeBase, AsimVillageGameModeBase::StaticClass, TEXT("AsimVillageGameModeBase"), &Z_Registration_Info_UClass_AsimVillageGameModeBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AsimVillageGameModeBase), 365306747U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_simVillage_Source_simVillage_simVillageGameModeBase_h_4287884381(TEXT("/Script/simVillage"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_simVillage_Source_simVillage_simVillageGameModeBase_h_2309989107(TEXT("/Script/simVillage"),
 		Z_CompiledInDeferFile_FID_simVillage_Source_simVillage_simVillageGameModeBase_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_simVillage_Source_simVillage_simVillageGameModeBase_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

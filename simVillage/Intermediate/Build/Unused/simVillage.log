@@ -1,0 +1,26 @@
+﻿  Using bundled DotNet SDK
+  Log file: C:\Users\hunte\AppData\Local\UnrealBuildTool\Log.txt
+  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\hunte\OneDrive\cloud_UE_projects\UE5_simVillage).
+  Waiting for 'git status' command to complete
+  Building simVillageEditor...
+  Using Visual Studio 2022 14.30.30711 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  [Adaptive Build] Excluded from simVillage unity file: SimpleRandomMovementTrait.cpp, simVillage.cpp, simVillageGameModeBase.cpp
+  Determining max actions to execute in parallel (6 physical cores, 6 logical cores)
+    Executing up to 6 processes, one per physical core
+    Requested 1.5 GB free memory per action, 5.25 GB available: limiting max parallel actions to 3
+  Building 11 actions with 3 processes...
+  [1/11] Resource Default.rc2
+  [2/11] Compile SharedPCH.Engine.ShadowErrors.cpp
+  [3/11] Compile simVillage.init.gen.cpp
+  [4/11] Compile simVillageGameModeBase.gen.cpp
+  [5/11] Compile simVillage.cpp
+  [6/11] Compile simVillageGameModeBase.cpp
+  [7/11] Compile SimpleRandomMovementTrait.gen.cpp
+  [8/11] Compile SimpleRandomMovementTrait.cpp
+  [9/11] Link UnrealEditor-simVillage.lib
+     Creating library C:\Users\hunte\OneDrive\cloud_UE_projects\UE5_simVillage\simVillage\Intermediate\Build\Win64\UnrealEditor\Development\simVillage\UnrealEditor-simVillage.lib and object C:\Users\hunte\OneDrive\cloud_UE_projects\UE5_simVillage\simVillage\Intermediate\Build\Win64\UnrealEditor\Development\simVillage\UnrealEditor-simVillage.exp
+  [10/11] Link UnrealEditor-simVillage.dll
+     Creating library C:\Users\hunte\OneDrive\cloud_UE_projects\UE5_simVillage\simVillage\Intermediate\Build\Win64\UnrealEditor\Development\simVillage\UnrealEditor-simVillage.suppressed.lib and object C:\Users\hunte\OneDrive\cloud_UE_projects\UE5_simVillage\simVillage\Intermediate\Build\Win64\UnrealEditor\Development\simVillage\UnrealEditor-simVillage.suppressed.exp
+  [11/11] WriteMetadata simVillageEditor.target
+  Total time in Parallel executor: 42.66 seconds
+  Total execution time: 44.39 seconds
