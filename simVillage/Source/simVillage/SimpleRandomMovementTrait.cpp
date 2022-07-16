@@ -35,32 +35,44 @@ void UInitProcessor_randomInitialTarget::Execute(UMassEntitySubsystem& EntitySub
 			static uint32 CurrentId = 0;
 			for (FSimpleMovementFragment& MovementFragment : TargetList)
 			{
-				MovementFragment.Target = FVector(FMath::RandRange(-1.f, 1.f) * 1000.f, FMath::RandRange(-1.f, 1.f) * 1000.f, FMath::RandRange(-1.f, 1.f) * 1000.f);
+				MovementFragment.Target = FVector(FMath::RandRange(-1.f, 1.f) * 1000.f, FMath::RandRange(-1.f, 1.f) * 1000.f, FMath::RandRange(0.f, 2.f) * 1000.f);
 			}
 		});
 }
 
-UMySimpleProcessor::UMySimpleProcessor()
+UProcessor_RandomTarget::UProcessor_RandomTarget()
 {
 	bAutoRegisterWithProcessingPhases = true;
 	ExecutionFlags = (int32)EProcessorExecutionFlags::All;
 }
 
-void UMySimpleProcessor::ConfigureQueries()
+void UProcessor_RandomTarget::ConfigureQueries()
 {
 	MyQuery.AddRequirement<FTransformFragment>(EMassFragmentAccess::ReadWrite);
 	MyQuery.AddRequirement<FSimpleMovementFragment>(EMassFragmentAccess::ReadWrite);
 }
 
-void UMySimpleProcessor::Execute(UMassEntitySubsystem& EntitySubsystem, FMassExecutionContext& Context)
+void UProcessor_RandomTarget::Execute(UMassEntitySubsystem& EntitySubsystem, FMassExecutionContext& Context)
 {
-	//Note that this is a lambda! If you want extra data you may need to pass it in the [] operator
 	MyQuery.ForEachEntityChunk(EntitySubsystem, Context, [](FMassExecutionContext& Context)
 		{
-			//Loop over every entity in the current chunk and do stuff!
+			const TArrayView<FTransformFragment> TransformList = Context.GetMutableFragmentView<FTransformFragment>();
+			const TArrayView<FSimpleMovementFragment> SimpleMovementList = Context.GetMutableFragmentView<FSimpleMovementFragment>();
+			const float WorldDeltaTime = Context.GetDeltaTimeSeconds();
+
 			for (int32 EntityIndex = 0; EntityIndex < Context.GetNumEntities(); ++EntityIndex)
 			{
-				// ...
+				FTransform& Transform = TransformList[EntityIndex].GetMutableTransform();
+				FVector& MoveTarget = SimpleMovementList[EntityIndex].Target;
+
+				FVector CurrentLocation = Transform.GetLocation();
+				FVector TargetVector = MoveTarget - CurrentLocation;
+
+				if (TargetVector.Size() <= 20.f)
+				{
+					MoveTarget = FVector(FMath::RandRange(-1.f, 1.f) * 1000.f, FMath::RandRange(-1.f, 1.f) * 1000.f, FMath::RandRange(0.f, 2.f) * 1000.f);
+				}
+				
 			}
 		});
 }
@@ -94,14 +106,9 @@ void USimpleRandomMovementProcessor::Execute(UMassEntitySubsystem& EntitySubsyst
 				FVector CurrentLocation = Transform.GetLocation();
 				FVector TargetVector = MoveTarget - CurrentLocation;
 
-				if (TargetVector.Size() <= 20.f)
-				{
-					MoveTarget = FVector(FMath::RandRange(-1.f, 1.f) * 1000.f, FMath::RandRange(-1.f, 1.f) * 1000.f, FMath::RandRange(-1.f, 1.f) * 1000.f); //CurrentLocation.Z
-				}
-				else
-				{
-					Transform.SetLocation(CurrentLocation + TargetVector.GetSafeNormal() * 400.f * WorldDeltaTime);
-				}
+				//MoveTarget = FVector(FMath::RandRange(-1.f, 1.f) * 1000.f, FMath::RandRange(-1.f, 1.f) * 1000.f, FMath::RandRange(0.f, 2.f) * 1000.f);
+				Transform.SetLocation(CurrentLocation + TargetVector.GetSafeNormal() * 400.f * WorldDeltaTime);
+				
 			}
 		}));
 }

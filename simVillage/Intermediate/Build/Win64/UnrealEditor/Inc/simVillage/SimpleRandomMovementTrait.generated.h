@@ -168,44 +168,44 @@ template<> SIMVILLAGE_API UClass* StaticClass<class USimpleRandomMovementProcess
 #define FID_simVillage_Source_simVillage_SimpleRandomMovementTrait_h_51_RPC_WRAPPERS_NO_PURE_DECLS
 #define FID_simVillage_Source_simVillage_SimpleRandomMovementTrait_h_51_INCLASS_NO_PURE_DECLS \
 private: \
-	static void StaticRegisterNativesUMySimpleProcessor(); \
-	friend struct Z_Construct_UClass_UMySimpleProcessor_Statics; \
+	static void StaticRegisterNativesUProcessor_RandomTarget(); \
+	friend struct Z_Construct_UClass_UProcessor_RandomTarget_Statics; \
 public: \
-	DECLARE_CLASS(UMySimpleProcessor, UMassProcessor, COMPILED_IN_FLAGS(0 | CLASS_DefaultConfig | CLASS_Config), CASTCLASS_None, TEXT("/Script/simVillage"), NO_API) \
-	DECLARE_SERIALIZER(UMySimpleProcessor)
+	DECLARE_CLASS(UProcessor_RandomTarget, UMassProcessor, COMPILED_IN_FLAGS(0 | CLASS_DefaultConfig | CLASS_Config), CASTCLASS_None, TEXT("/Script/simVillage"), NO_API) \
+	DECLARE_SERIALIZER(UProcessor_RandomTarget)
 
 
 #define FID_simVillage_Source_simVillage_SimpleRandomMovementTrait_h_51_INCLASS \
 private: \
-	static void StaticRegisterNativesUMySimpleProcessor(); \
-	friend struct Z_Construct_UClass_UMySimpleProcessor_Statics; \
+	static void StaticRegisterNativesUProcessor_RandomTarget(); \
+	friend struct Z_Construct_UClass_UProcessor_RandomTarget_Statics; \
 public: \
-	DECLARE_CLASS(UMySimpleProcessor, UMassProcessor, COMPILED_IN_FLAGS(0 | CLASS_DefaultConfig | CLASS_Config), CASTCLASS_None, TEXT("/Script/simVillage"), NO_API) \
-	DECLARE_SERIALIZER(UMySimpleProcessor)
+	DECLARE_CLASS(UProcessor_RandomTarget, UMassProcessor, COMPILED_IN_FLAGS(0 | CLASS_DefaultConfig | CLASS_Config), CASTCLASS_None, TEXT("/Script/simVillage"), NO_API) \
+	DECLARE_SERIALIZER(UProcessor_RandomTarget)
 
 
 #define FID_simVillage_Source_simVillage_SimpleRandomMovementTrait_h_51_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API UMySimpleProcessor(const FObjectInitializer& ObjectInitializer); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMySimpleProcessor) \
-	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMySimpleProcessor); \
-	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMySimpleProcessor); \
+	NO_API UProcessor_RandomTarget(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UProcessor_RandomTarget) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UProcessor_RandomTarget); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UProcessor_RandomTarget); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
-	NO_API UMySimpleProcessor(UMySimpleProcessor&&); \
-	NO_API UMySimpleProcessor(const UMySimpleProcessor&); \
+	NO_API UProcessor_RandomTarget(UProcessor_RandomTarget&&); \
+	NO_API UProcessor_RandomTarget(const UProcessor_RandomTarget&); \
 public:
 
 
 #define FID_simVillage_Source_simVillage_SimpleRandomMovementTrait_h_51_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
-	NO_API UMySimpleProcessor(UMySimpleProcessor&&); \
-	NO_API UMySimpleProcessor(const UMySimpleProcessor&); \
+	NO_API UProcessor_RandomTarget(UProcessor_RandomTarget&&); \
+	NO_API UProcessor_RandomTarget(const UProcessor_RandomTarget&); \
 public: \
-	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMySimpleProcessor); \
-	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMySimpleProcessor); \
-	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UMySimpleProcessor)
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UProcessor_RandomTarget); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UProcessor_RandomTarget); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UProcessor_RandomTarget)
 
 
 #define FID_simVillage_Source_simVillage_SimpleRandomMovementTrait_h_48_PROLOG
@@ -231,7 +231,7 @@ private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-template<> SIMVILLAGE_API UClass* StaticClass<class UMySimpleProcessor>();
+template<> SIMVILLAGE_API UClass* StaticClass<class UProcessor_RandomTarget>();
 
 #define FID_simVillage_Source_simVillage_SimpleRandomMovementTrait_h_66_SPARSE_DATA
 #define FID_simVillage_Source_simVillage_SimpleRandomMovementTrait_h_66_RPC_WRAPPERS

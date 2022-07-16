@@ -27,7 +27,7 @@ USTRUCT()
 struct FSimpleMovementFragment : public FMassFragment
 {
 	GENERATED_BODY()
-		FVector Target;
+	FVector Target;
 };
 
 UCLASS()
@@ -46,11 +46,11 @@ private:
 };
 
 UCLASS()
-class UMySimpleProcessor : public UMassProcessor
+class UProcessor_RandomTarget : public UMassProcessor
 {
 	GENERATED_BODY()
 public:
-	UMySimpleProcessor();
+	UProcessor_RandomTarget();
 
 protected:
 	virtual void ConfigureQueries() override;
