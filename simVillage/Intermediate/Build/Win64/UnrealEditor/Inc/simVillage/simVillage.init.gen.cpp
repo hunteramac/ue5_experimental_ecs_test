@@ -17,13 +17,13 @@ void EmptyLinkFunctionForGeneratedCodesimVillage_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x7AEDF597,
-				0xFE7D589F,
+				0xED317771,
+				0x598A197D,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_simVillage.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_simVillage.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_simVillage(Z_Construct_UPackage__Script_simVillage, TEXT("/Script/simVillage"), Z_Registration_Info_UPackage__Script_simVillage, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x7AEDF597, 0xFE7D589F));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_simVillage(Z_Construct_UPackage__Script_simVillage, TEXT("/Script/simVillage"), Z_Registration_Info_UPackage__Script_simVillage, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xED317771, 0x598A197D));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

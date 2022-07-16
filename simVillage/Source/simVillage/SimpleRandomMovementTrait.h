@@ -8,6 +8,7 @@
 #include "MassEntityQuery.h"
 #include "MassEntitySubsystem.h"
 #include "MassProcessor.h"
+#include "MassObserverProcessor.h"
 #include "SimpleRandomMovementTrait.generated.h"
 
 /**
@@ -41,5 +42,34 @@ protected:
 	virtual void Execute(UMassEntitySubsystem& EntitySubsystem, FMassExecutionContext& Context) override;
 
 private:
-	FMassEntityQuery EntityQuery;
+	FMassEntityQuery MyQuery;
+};
+
+UCLASS()
+class UMySimpleProcessor : public UMassProcessor
+{
+	GENERATED_BODY()
+public:
+	UMySimpleProcessor();
+
+protected:
+	virtual void ConfigureQueries() override;
+	virtual void Execute(UMassEntitySubsystem& EntitySubsystem, FMassExecutionContext& Context) override;
+
+private:
+	FMassEntityQuery MyQuery;
+};
+
+UCLASS()
+class UInitProcessor_randomInitialTarget : public UMassObserverProcessor
+{
+	GENERATED_BODY()
+public:
+	UInitProcessor_randomInitialTarget();
+
+protected:
+	virtual void ConfigureQueries() override;
+	virtual void Execute(UMassEntitySubsystem& EntitySubsystem, FMassExecutionContext& Context) override;
+
+	FMassEntityQuery MyQuery;
 };
