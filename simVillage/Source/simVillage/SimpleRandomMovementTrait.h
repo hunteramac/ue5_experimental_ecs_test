@@ -11,13 +11,11 @@
 #include "MassObserverProcessor.h"
 #include "SimpleRandomMovementTrait.generated.h"
 
-/**
- *
- */
 UCLASS()
 class USimpleRandomMovementTrait : public UMassEntityTraitBase
 {
 	GENERATED_BODY()
+		static const float TARGET_RANGE_X;
 
 protected:
 	virtual void BuildTemplate(FMassEntityTemplateBuildContext& BuildContext, UWorld& World) const override;
@@ -31,18 +29,18 @@ struct FSimpleMovementFragment : public FMassFragment
 };
 
 UCLASS()
-class USimpleRandomMovementProcessor : public UMassProcessor
+class UProcessor_SimpleMovement : public UMassProcessor
 {
 	GENERATED_BODY()
 public:
-	USimpleRandomMovementProcessor();
+	UProcessor_SimpleMovement();
 
 protected:
 	virtual void ConfigureQueries() override;
 	virtual void Execute(UMassEntitySubsystem& EntitySubsystem, FMassExecutionContext& Context) override;
 
 private:
-	FMassEntityQuery MyQuery;
+	FMassEntityQuery EntityQuery;
 };
 
 UCLASS()
@@ -57,7 +55,7 @@ protected:
 	virtual void Execute(UMassEntitySubsystem& EntitySubsystem, FMassExecutionContext& Context) override;
 
 private:
-	FMassEntityQuery MyQuery;
+	FMassEntityQuery EntityQuery;
 };
 
 UCLASS()
@@ -71,5 +69,5 @@ protected:
 	virtual void ConfigureQueries() override;
 	virtual void Execute(UMassEntitySubsystem& EntitySubsystem, FMassExecutionContext& Context) override;
 
-	FMassEntityQuery MyQuery;
+	FMassEntityQuery EntityQuery;
 };
