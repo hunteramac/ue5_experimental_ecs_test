@@ -11,6 +11,20 @@
 #include "MassObserverProcessor.h"
 #include "SimpleRandomMovementTrait.generated.h"
 
+#if WITH_EDITORONLY_DATA
+UPROPERTY(EditAnywhere, Category = "SimpleMove")
+FRandomMovementControl MovementControl;
+#endif // WITH_EDITORONLY_DATA
+
+
+USTRUCT()
+struct FRandomMovementControl : public FMassFragment
+{
+	GENERATED_BODY()
+	float MoveTarget_CubeSize;
+	float Entity_Speed;
+};
+
 UCLASS()
 class USimpleRandomMovementTrait : public UMassEntityTraitBase
 {
@@ -59,11 +73,11 @@ private:
 };
 
 UCLASS()
-class UInitProcessor_randomInitialTarget : public UMassObserverProcessor
+class UInitProcessor_RandomInitialTarget : public UMassObserverProcessor
 {
 	GENERATED_BODY()
 public:
-	UInitProcessor_randomInitialTarget();
+	UInitProcessor_RandomInitialTarget();
 
 protected:
 	virtual void ConfigureQueries() override;
