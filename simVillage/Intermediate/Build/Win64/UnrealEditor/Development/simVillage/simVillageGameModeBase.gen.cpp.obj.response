@@ -1,5 +1,6 @@
 C:\Users\hunte\OneDrive\cloud_UE_projects\UE5_simVillage\simVillage\Intermediate\Build\Win64\UnrealEditor\Inc\simVillage\simVillageGameModeBase.gen.cpp
 /I .
+/I C:\Users\hunte\OneDrive\cloud_UE_projects\UE5_simVillage\simVillage\Source\simVillage\Private
 /I ..\Plugins\Runtime\MassGameplay\Intermediate\Build\Win64\UnrealEditor\Inc\MassSpawner
 /I ..\Plugins\Runtime\MassGameplay\Source
 /I ..\Plugins\Runtime\MassGameplay\Source\MassSpawner\Public
@@ -269,6 +270,7 @@ C:\Users\hunte\OneDrive\cloud_UE_projects\UE5_simVillage\simVillage\Intermediate
 /I ..\Plugins\Runtime\ZoneGraph\Source\ZoneGraph\Public
 /I C:\Users\hunte\OneDrive\cloud_UE_projects\UE5_simVillage\simVillage\Intermediate\Build\Win64\UnrealEditor\Inc\simVillage
 /I C:\Users\hunte\OneDrive\cloud_UE_projects\UE5_simVillage\simVillage\Source
+/I C:\Users\hunte\OneDrive\cloud_UE_projects\UE5_simVillage\simVillage\Source\simVillage\Public
 /I ..\Plugins\AI\MassCrowd\Intermediate\Build\Win64\UnrealEditor\Inc\MassCrowd
 /I ..\Plugins\AI\MassCrowd\Source
 /I ..\Plugins\AI\MassCrowd\Source\MassCrowd\Public

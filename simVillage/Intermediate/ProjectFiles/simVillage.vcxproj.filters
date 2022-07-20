@@ -24,6 +24,9 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Config\HoloLens">
       <UniqueIdentifier>{4C8DD267-CDE7-336F-8602-F5F485D22BAB}</UniqueIdentifier>
     </Filter>
@@ -53,6 +56,18 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\simVillage\simVillageGameModeBase.h">
       <Filter>Source\simVillage</Filter>
+    </ClInclude>
+    <Filter Include="Source\simVillage\Private">
+      <UniqueIdentifier>{66FA493B-5D49-37B4-B2F6-5CF3BD47C72E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\simVillage\Private\EntityTrait_destroyOnCollision.cpp">
+      <Filter>Source\simVillage\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\simVillage\Public">
+      <UniqueIdentifier>{C2360379-99D3-3013-BC28-50866E9F3C14}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\simVillage\Public\EntityTrait_destroyOnCollision.h">
+      <Filter>Source\simVillage\Public</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
