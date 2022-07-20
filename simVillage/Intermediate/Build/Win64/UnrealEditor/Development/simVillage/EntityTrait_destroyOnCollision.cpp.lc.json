@@ -50,7 +50,11 @@
             "d:\\unreal_engine\\ue_5.0\\engine\\plugins\\runtime\\massgameplay\\intermediate\\build\\win64\\unrealeditor\\inc\\masscommon\\masscommontypes.generated.h",
             "d:\\unreal_engine\\ue_5.0\\engine\\plugins\\runtime\\massgameplay\\source\\massspawner\\public\\massentitytemplate.h",
             "d:\\unreal_engine\\ue_5.0\\engine\\plugins\\runtime\\massgameplay\\intermediate\\build\\win64\\unrealeditor\\inc\\massspawner\\massentitytemplate.generated.h",
-            "d:\\unreal_engine\\ue_5.0\\engine\\plugins\\runtime\\massgameplay\\intermediate\\build\\win64\\unrealeditor\\inc\\massspawner\\massentitytemplateregistry.generated.h"
+            "d:\\unreal_engine\\ue_5.0\\engine\\plugins\\runtime\\massgameplay\\intermediate\\build\\win64\\unrealeditor\\inc\\massspawner\\massentitytemplateregistry.generated.h",
+            "d:\\unreal_engine\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\components\\boxcomponent.h",
+            "d:\\unreal_engine\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "d:\\unreal_engine\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\shapecomponent.generated.h",
+            "d:\\unreal_engine\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\boxcomponent.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

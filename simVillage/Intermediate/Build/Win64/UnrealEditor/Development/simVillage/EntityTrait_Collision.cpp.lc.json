@@ -1,0 +1,17 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\hunte\\onedrive\\cloud_ue_projects\\ue5_simvillage\\simvillage\\source\\simvillage\\private\\entitytrait_collision.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\hunte\\onedrive\\cloud_ue_projects\\ue5_simvillage\\simvillage\\intermediate\\build\\win64\\simvillageeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\hunte\\onedrive\\cloud_ue_projects\\ue5_simvillage\\simvillage\\intermediate\\build\\win64\\unrealeditor\\development\\simvillage\\definitions.simvillage.h",
+            "c:\\users\\hunte\\onedrive\\cloud_ue_projects\\ue5_simvillage\\simvillage\\source\\simvillage\\public\\entitytrait_collision.h",
+            "d:\\unreal_engine\\ue_5.0\\engine\\plugins\\runtime\\massgameplay\\source\\massspawner\\public\\massentitytraitbase.h",
+            "d:\\unreal_engine\\ue_5.0\\engine\\plugins\\runtime\\massgameplay\\intermediate\\build\\win64\\unrealeditor\\inc\\massspawner\\massentitytraitbase.generated.h",
+            "c:\\users\\hunte\\onedrive\\cloud_ue_projects\\ue5_simvillage\\simvillage\\intermediate\\build\\win64\\unrealeditor\\inc\\simvillage\\entitytrait_collision.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

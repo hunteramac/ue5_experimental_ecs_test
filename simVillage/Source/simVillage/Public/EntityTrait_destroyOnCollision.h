@@ -20,6 +20,9 @@ class SIMVILLAGE_API UEntityTrait_destroyOnCollision : public UMassEntityTraitBa
 	GENERATED_BODY()
 protected:
 	virtual void BuildTemplate(FMassEntityTemplateBuildContext& BuildContext, UWorld& World) const override;
+public:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float TestNumber = 42.f;
 };
 
 UCLASS()
@@ -34,5 +37,26 @@ protected:
 	virtual void Execute(UMassEntitySubsystem& EntitySubsystem, FMassExecutionContext& Context) override;
 
 private:
+	FMassEntityQuery EntityQuery;
+};
+
+USTRUCT()
+struct FCollisionFragment : public FMassFragment
+{
+	GENERATED_BODY()
+		class UBoxComponent* CollisionBox;
+};
+
+UCLASS()
+class UInitProcessor_CollisionBox : public UMassObserverProcessor
+{
+	GENERATED_BODY()
+public:
+	UInitProcessor_CollisionBox();
+
+protected:
+	virtual void ConfigureQueries() override;
+	virtual void Execute(UMassEntitySubsystem& EntitySubsystem, FMassExecutionContext& Context) override;
+
 	FMassEntityQuery EntityQuery;
 };
