@@ -7,9 +7,11 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\Users\hunte\OneDrive\cloud_UE_projects\UE5_simVillage\simVillage\Intermediate\Build\Win64\simVillageEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\hunte\OneDrive\cloud_UE_projects\UE5_simVillage\simVillage\Intermediate\Build\Win64\UnrealEditor\Development\simVillage\EntityTrait_destroyOnCollision.cpp.obj"
 "C:\Users\hunte\OneDrive\cloud_UE_projects\UE5_simVillage\simVillage\Intermediate\Build\Win64\UnrealEditor\Development\simVillage\SimpleRandomMovementTrait.cpp.obj"
 "C:\Users\hunte\OneDrive\cloud_UE_projects\UE5_simVillage\simVillage\Intermediate\Build\Win64\UnrealEditor\Development\simVillage\simVillage.cpp.obj"
 "C:\Users\hunte\OneDrive\cloud_UE_projects\UE5_simVillage\simVillage\Intermediate\Build\Win64\UnrealEditor\Development\simVillage\simVillageGameModeBase.cpp.obj"
+"C:\Users\hunte\OneDrive\cloud_UE_projects\UE5_simVillage\simVillage\Intermediate\Build\Win64\UnrealEditor\Development\simVillage\EntityTrait_destroyOnCollision.gen.cpp.obj"
 "C:\Users\hunte\OneDrive\cloud_UE_projects\UE5_simVillage\simVillage\Intermediate\Build\Win64\UnrealEditor\Development\simVillage\SimpleRandomMovementTrait.gen.cpp.obj"
 "C:\Users\hunte\OneDrive\cloud_UE_projects\UE5_simVillage\simVillage\Intermediate\Build\Win64\UnrealEditor\Development\simVillage\simVillage.init.gen.cpp.obj"
 "C:\Users\hunte\OneDrive\cloud_UE_projects\UE5_simVillage\simVillage\Intermediate\Build\Win64\UnrealEditor\Development\simVillage\simVillageGameModeBase.gen.cpp.obj"

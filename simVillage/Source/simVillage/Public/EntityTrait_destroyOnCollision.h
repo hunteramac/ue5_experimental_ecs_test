@@ -4,35 +4,36 @@
 
 #include "CoreMinimal.h"
 #include "MassEntityTraitBase.h"
-#include "MassEntityTypes.h"
-#include "MassEntityQuery.h"
-#include "MassEntitySubsystem.h"
-#include "MassProcessor.h"
-#include "MassObserverProcessor.h"
+#include "CoreMinimal.h"
+#include "MassCommonTypes.h"
+#include "Components/BoxComponent.h"
 #include "EntityTrait_destroyOnCollision.generated.h"
 
-/**
- * 
- */
+
+USTRUCT(BlueprintType)
+struct SIMVILLAGE_API FColliderFragment : public FMassSharedFragment
+{
+	GENERATED_BODY()
+
+		UPROPERTY(BlueprintReadWrite, EditAnywhere)
+		UBoxComponent* Collider;
+
+	FColliderFragment()
+		: Collider(nullptr)
+	{
+	}
+};
+
 UCLASS()
 class SIMVILLAGE_API UEntityTrait_destroyOnCollision : public UMassEntityTraitBase
 {
 	GENERATED_BODY()
+	UPROPERTY(Category = "Collider", EditAnywhere)
+	FColliderFragment Collider;
 protected:
 	virtual void BuildTemplate(FMassEntityTemplateBuildContext& BuildContext, UWorld& World) const override;
 };
 
-UCLASS()
-class UProcessor_checkCollision : public UMassProcessor
-{
-	GENERATED_BODY()
-public:
-	UProcessor_checkCollision();
 
-protected:
-	virtual void ConfigureQueries() override;
-	virtual void Execute(UMassEntitySubsystem& EntitySubsystem, FMassExecutionContext& Context) override;
 
-private:
-	FMassEntityQuery EntityQuery;
-};
+

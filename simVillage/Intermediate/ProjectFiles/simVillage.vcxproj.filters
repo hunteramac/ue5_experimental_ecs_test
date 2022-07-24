@@ -36,12 +36,6 @@
     <Filter Include="Source\simVillage">
       <UniqueIdentifier>{261E361B-3FD0-3C0F-978A-FF3153CABB00}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\simVillage\SimpleRandomMovementTrait.cpp">
-      <Filter>Source\simVillage</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\simVillage\SimpleRandomMovementTrait.h">
-      <Filter>Source\simVillage</Filter>
-    </ClInclude>
     <None Include="..\..\Source\simVillage\simVillage.Build.cs">
       <Filter>Source\simVillage</Filter>
     </None>
@@ -57,17 +51,39 @@
     <ClInclude Include="..\..\Source\simVillage\simVillageGameModeBase.h">
       <Filter>Source\simVillage</Filter>
     </ClInclude>
-    <Filter Include="Source\simVillage\Private">
-      <UniqueIdentifier>{66FA493B-5D49-37B4-B2F6-5CF3BD47C72E}</UniqueIdentifier>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\simVillage\Fragments">
+      <UniqueIdentifier>{bedbdc0b-6001-4493-8e35-d97705d4520e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\simVillage\Config">
+      <UniqueIdentifier>{1d4e8cda-8647-47ce-868e-a89d1409f93e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\simVillage\Processors">
+      <UniqueIdentifier>{8aeb9eea-73f0-42cf-afd3-e9b00461fab2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
     <ClCompile Include="..\..\Source\simVillage\Private\EntityTrait_destroyOnCollision.cpp">
-      <Filter>Source\simVillage\Private</Filter>
+      <Filter>Source\simVillage\Config</Filter>
     </ClCompile>
-    <Filter Include="Source\simVillage\Public">
-      <UniqueIdentifier>{C2360379-99D3-3013-BC28-50866E9F3C14}</UniqueIdentifier>
-    </Filter>
+    <ClCompile Include="..\..\Source\simVillage\SimpleRandomMovementTrait.cpp">
+      <Filter>Source\simVillage\Config</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
     <ClInclude Include="..\..\Source\simVillage\Public\EntityTrait_destroyOnCollision.h">
-      <Filter>Source\simVillage\Public</Filter>
+      <Filter>Source\simVillage\Config</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\simVillage\SimpleRandomMovementTrait.h">
+      <Filter>Source\simVillage\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="..\..\Source\simVillage\Fragments\ColliderFragment.h">
+      <Filter>Source\simVillage\Fragments</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="simVillage.rc" />
   </ItemGroup>
 </Project>
