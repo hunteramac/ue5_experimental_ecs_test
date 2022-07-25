@@ -6,7 +6,7 @@
         "PCH": "c:\\users\\hunte\\onedrive\\cloud_ue_projects\\ue5_simvillage\\simvillage\\intermediate\\build\\win64\\simvillageeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
         "Includes": [
             "c:\\users\\hunte\\onedrive\\cloud_ue_projects\\ue5_simvillage\\simvillage\\intermediate\\build\\win64\\unrealeditor\\development\\simvillage\\definitions.simvillage.h",
-            "c:\\users\\hunte\\onedrive\\cloud_ue_projects\\ue5_simvillage\\simvillage\\source\\simvillage\\simplerandommovementtrait.h",
+            "c:\\users\\hunte\\onedrive\\cloud_ue_projects\\ue5_simvillage\\simvillage\\source\\simvillage\\public\\simplerandommovementtrait.h",
             "d:\\unreal_engine\\ue_5.0\\engine\\plugins\\runtime\\massgameplay\\source\\massspawner\\public\\massentitytraitbase.h",
             "d:\\unreal_engine\\ue_5.0\\engine\\plugins\\runtime\\massgameplay\\intermediate\\build\\win64\\unrealeditor\\inc\\massspawner\\massentitytraitbase.generated.h",
             "d:\\unreal_engine\\ue_5.0\\engine\\plugins\\runtime\\massentity\\source\\massentity\\public\\massentitytypes.h",

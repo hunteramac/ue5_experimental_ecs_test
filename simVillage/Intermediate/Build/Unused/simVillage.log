@@ -1,21 +1,26 @@
 ﻿  Using bundled DotNet SDK
   Log file: C:\Users\hunte\AppData\Local\UnrealBuildTool\Log.txt
   Using 'git status' to determine working set for adaptive non-unity build (C:\Users\hunte\OneDrive\cloud_UE_projects\UE5_simVillage).
-  Creating makefile for simVillageEditor (no existing makefile)
+  Invalidating makefile for simVillageEditor (working set of source files changed)
+  Parsing headers for simVillageEditor
+    Running UnrealHeaderTool "C:\Users\hunte\OneDrive\cloud_UE_projects\UE5_simVillage\simVillage\simVillage.uproject" "C:\Users\hunte\OneDrive\cloud_UE_projects\UE5_simVillage\simVillage\Intermediate\Build\Win64\simVillageEditor\Development\simVillageEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\hunte\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  Reflection code generated for simVillageEditor in 1.539824 seconds
   Building simVillageEditor...
   Using Visual Studio 2022 14.30.30711 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  [Adaptive Build] Excluded from simVillage unity file: SimpleRandomMovementTrait.cpp
+  [Adaptive Build] Excluded from simVillage unity file: SimpleColliderTrait.cpp
   Determining max actions to execute in parallel (6 physical cores, 6 logical cores)
     Executing up to 6 processes, one per physical core
-    Requested 1.5 GB free memory per action, 8.28 GB available: limiting max parallel actions to 5
-  Building 6 actions with 5 processes...
-  [1/6] Compile simVillage.init.gen.cpp
-  [2/6] Compile SimpleRandomMovementTrait.gen.cpp
-  [3/6] Compile SimpleRandomMovementTrait.cpp
-  [4/6] Link UnrealEditor-simVillage.lib
+    Requested 1.5 GB free memory per action, 4.78 GB available: limiting max parallel actions to 3
+  Building 8 actions with 3 processes...
+  [1/8] Compile simVillage.init.gen.cpp
+  [2/8] Compile SimpleColliderTrait.gen.cpp
+  [3/8] Compile SimpleRandomMovementTrait.cpp
+  [4/8] Compile SimpleRandomMovementTrait.gen.cpp
+  [5/8] Compile SimpleColliderTrait.cpp
+  [6/8] Link UnrealEditor-simVillage.lib
      Creating library C:\Users\hunte\OneDrive\cloud_UE_projects\UE5_simVillage\simVillage\Intermediate\Build\Win64\UnrealEditor\Development\simVillage\UnrealEditor-simVillage.lib and object C:\Users\hunte\OneDrive\cloud_UE_projects\UE5_simVillage\simVillage\Intermediate\Build\Win64\UnrealEditor\Development\simVillage\UnrealEditor-simVillage.exp
-  [5/6] Link UnrealEditor-simVillage.dll
+  [7/8] Link UnrealEditor-simVillage.dll
      Creating library C:\Users\hunte\OneDrive\cloud_UE_projects\UE5_simVillage\simVillage\Intermediate\Build\Win64\UnrealEditor\Development\simVillage\UnrealEditor-simVillage.suppressed.lib and object C:\Users\hunte\OneDrive\cloud_UE_projects\UE5_simVillage\simVillage\Intermediate\Build\Win64\UnrealEditor\Development\simVillage\UnrealEditor-simVillage.suppressed.exp
-  [6/6] WriteMetadata simVillageEditor.target
-  Total time in Parallel executor: 3.59 seconds
-  Total execution time: 5.53 seconds
+  [8/8] WriteMetadata simVillageEditor.target
+  Total time in Parallel executor: 11.50 seconds
+  Total execution time: 14.55 seconds

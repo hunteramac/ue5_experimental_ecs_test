@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define SIMVILLAGE_SimpleColliderTrait_generated_h
 
-#define FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_15_SPARSE_DATA
-#define FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_15_RPC_WRAPPERS
-#define FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_15_INCLASS_NO_PURE_DECLS \
+#define FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_20_SPARSE_DATA
+#define FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_20_RPC_WRAPPERS
+#define FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_20_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_20_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUSimpleColliderTrait(); \
 	friend struct Z_Construct_UClass_USimpleColliderTrait_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(USimpleColliderTrait)
 
 
-#define FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_15_INCLASS \
+#define FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_20_INCLASS \
 private: \
 	static void StaticRegisterNativesUSimpleColliderTrait(); \
 	friend struct Z_Construct_UClass_USimpleColliderTrait_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(USimpleColliderTrait)
 
 
-#define FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_15_STANDARD_CONSTRUCTORS \
+#define FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_20_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API USimpleColliderTrait(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USimpleColliderTrait) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_15_ENHANCED_CONSTRUCTORS \
+#define FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_20_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API USimpleColliderTrait(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -60,30 +60,108 @@ public: \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USimpleColliderTrait)
 
 
-#define FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_12_PROLOG
-#define FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_15_GENERATED_BODY_LEGACY \
+#define FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_17_PROLOG
+#define FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_20_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_15_SPARSE_DATA \
-	FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_15_RPC_WRAPPERS \
-	FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_15_INCLASS \
-	FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_15_STANDARD_CONSTRUCTORS \
+	FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_20_SPARSE_DATA \
+	FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_20_RPC_WRAPPERS \
+	FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_20_INCLASS \
+	FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_20_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_15_GENERATED_BODY \
+#define FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_20_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_15_SPARSE_DATA \
-	FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_15_INCLASS_NO_PURE_DECLS \
-	FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_15_ENHANCED_CONSTRUCTORS \
+	FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_20_SPARSE_DATA \
+	FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_20_INCLASS_NO_PURE_DECLS \
+	FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_20_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 template<> SIMVILLAGE_API UClass* StaticClass<class USimpleColliderTrait>();
+
+#define FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_29_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FColliderFragment_Statics; \
+	static class UScriptStruct* StaticStruct(); \
+	typedef FMassFragment Super;
+
+
+template<> SIMVILLAGE_API UScriptStruct* StaticStruct<struct FColliderFragment>();
+
+#define FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_40_SPARSE_DATA
+#define FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_40_RPC_WRAPPERS
+#define FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_40_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_40_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUInitializeColliderProccessor(); \
+	friend struct Z_Construct_UClass_UInitializeColliderProccessor_Statics; \
+public: \
+	DECLARE_CLASS(UInitializeColliderProccessor, UMassObserverProcessor, COMPILED_IN_FLAGS(0 | CLASS_DefaultConfig | CLASS_Config), CASTCLASS_None, TEXT("/Script/simVillage"), NO_API) \
+	DECLARE_SERIALIZER(UInitializeColliderProccessor)
+
+
+#define FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_40_INCLASS \
+private: \
+	static void StaticRegisterNativesUInitializeColliderProccessor(); \
+	friend struct Z_Construct_UClass_UInitializeColliderProccessor_Statics; \
+public: \
+	DECLARE_CLASS(UInitializeColliderProccessor, UMassObserverProcessor, COMPILED_IN_FLAGS(0 | CLASS_DefaultConfig | CLASS_Config), CASTCLASS_None, TEXT("/Script/simVillage"), NO_API) \
+	DECLARE_SERIALIZER(UInitializeColliderProccessor)
+
+
+#define FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_40_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UInitializeColliderProccessor(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UInitializeColliderProccessor) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UInitializeColliderProccessor); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UInitializeColliderProccessor); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UInitializeColliderProccessor(UInitializeColliderProccessor&&); \
+	NO_API UInitializeColliderProccessor(const UInitializeColliderProccessor&); \
+public:
+
+
+#define FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_40_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UInitializeColliderProccessor(UInitializeColliderProccessor&&); \
+	NO_API UInitializeColliderProccessor(const UInitializeColliderProccessor&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UInitializeColliderProccessor); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UInitializeColliderProccessor); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UInitializeColliderProccessor)
+
+
+#define FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_37_PROLOG
+#define FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_40_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_40_SPARSE_DATA \
+	FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_40_RPC_WRAPPERS \
+	FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_40_INCLASS \
+	FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_40_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_40_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_40_SPARSE_DATA \
+	FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_40_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_40_INCLASS_NO_PURE_DECLS \
+	FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_40_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> SIMVILLAGE_API UClass* StaticClass<class UInitializeColliderProccessor>();
 
 #undef CURRENT_FILE_ID
 #define CURRENT_FILE_ID FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h
