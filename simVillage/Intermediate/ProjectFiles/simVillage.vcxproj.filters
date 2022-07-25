@@ -36,12 +36,6 @@
     <Filter Include="Source\simVillage">
       <UniqueIdentifier>{261E361B-3FD0-3C0F-978A-FF3153CABB00}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\simVillage\SimpleRandomMovementTrait.cpp">
-      <Filter>Source\simVillage</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\simVillage\SimpleRandomMovementTrait.h">
-      <Filter>Source\simVillage</Filter>
-    </ClInclude>
     <None Include="..\..\Source\simVillage\simVillage.Build.cs">
       <Filter>Source\simVillage</Filter>
     </None>
@@ -60,13 +54,19 @@
     <Filter Include="Source\simVillage\Private">
       <UniqueIdentifier>{66FA493B-5D49-37B4-B2F6-5CF3BD47C72E}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\simVillage\Private\EntityTrait_destroyOnCollision.cpp">
+    <ClCompile Include="..\..\Source\simVillage\Private\SimpleColliderTrait.cpp">
+      <Filter>Source\simVillage\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\simVillage\Private\SimpleRandomMovementTrait.cpp">
       <Filter>Source\simVillage\Private</Filter>
     </ClCompile>
     <Filter Include="Source\simVillage\Public">
       <UniqueIdentifier>{C2360379-99D3-3013-BC28-50866E9F3C14}</UniqueIdentifier>
     </Filter>
-    <ClInclude Include="..\..\Source\simVillage\Public\EntityTrait_destroyOnCollision.h">
+    <ClInclude Include="..\..\Source\simVillage\Public\SimpleColliderTrait.h">
+      <Filter>Source\simVillage\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\simVillage\Public\SimpleRandomMovementTrait.h">
       <Filter>Source\simVillage\Public</Filter>
     </ClInclude>
   </ItemGroup>
