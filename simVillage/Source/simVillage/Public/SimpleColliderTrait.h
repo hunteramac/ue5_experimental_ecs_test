@@ -10,7 +10,8 @@
 #include "MassProcessor.h"
 #include "MassObserverProcessor.h"
 
-#include "Components/BoxComponent.h"
+//actor defined in project to test mass entity
+#include "ActorMassTest.h"
 
 #include "SimpleColliderTrait.generated.h"
 
@@ -27,10 +28,10 @@ USTRUCT(BlueprintType)
 struct SIMVILLAGE_API FColliderFragment : public FMassFragment
 {
 	GENERATED_BODY()
-
-		/** The render mesh for a boid */
-		UPROPERTY(BlueprintReadWrite, EditAnywhere)
-		UBoxComponent* Collider;
+		//UPROPERTY(BlueprintReadWrite, EditAnywhere)
+		//UBoxComponent* Collider;
+		//FMassEntityHandle ActorHandle;
+		
 
 };
 

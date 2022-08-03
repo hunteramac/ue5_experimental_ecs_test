@@ -7,7 +7,20 @@
 #include "MassCommonFragments.h" //Access to FTransformFragment
 #include "MassTranslator.h" 
 #include "MassEntityQuery.h" //Ability to Query,
+
+
+#include "GameFramework/Actor.h"
+#include "MassAgentComponent.h"
+#include "MassActorSubsystem.h"
+#include "Engine/World.h"
+
+//actor defined in project to test mass entity
+#include "ActorMassTest.h"
+
+
+
 #include "MassEntityTemplateRegistry.h"
+
 
 void USimpleColliderTrait::BuildTemplate(FMassEntityTemplateBuildContext& BuildContext, UWorld& World) const
 {
@@ -31,11 +44,25 @@ void UInitializeColliderProccessor::Execute(UMassEntitySubsystem& EntitySubsyste
 {
 	EntityQuery.ForEachEntityChunk(EntitySubsystem, Context, [](FMassExecutionContext& Context)
 		{
+			const TArrayView<FTransformFragment> TransformList = Context.GetMutableFragmentView<FTransformFragment>();
 			const TArrayView<FColliderFragment> TargetList = Context.GetMutableFragmentView<FColliderFragment>();
 			static uint32 CurrentId = 0;
-			for (FColliderFragment& ColliderFragment : TargetList)
+
+			for (int32 EntityIndex = 0; EntityIndex < Context.GetNumEntities(); ++EntityIndex)
 			{
-				ColliderFragment.Collider = NewObject<UBoxComponent>();;
+
+			//for (FColliderFragment& ColliderFragment : TargetList)
+			//{
+
+				FRotator Rotation(0.0f, 0.0f, 0.0f);
+				FActorSpawnParameters SpawnInfo;
+
+				FTransform& Transform = TransformList[EntityIndex].GetMutableTransform();
+
+				//need to have gotten world and pass to this call outside of the loop
+				AActor* entityActor = GetWorld()->SpawnActor<AActor>(AActorMassTest, Transform, Rotation, SpawnInfo);
+
+				
 			}
 		});
 }

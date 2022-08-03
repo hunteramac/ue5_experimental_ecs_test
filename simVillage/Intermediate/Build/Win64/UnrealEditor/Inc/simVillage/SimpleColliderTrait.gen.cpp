@@ -15,7 +15,6 @@ void EmptyLinkFunctionForGeneratedCodeSimpleColliderTrait() {}
 	UPackage* Z_Construct_UPackage__Script_simVillage();
 	SIMVILLAGE_API UScriptStruct* Z_Construct_UScriptStruct_FColliderFragment();
 	MASSENTITY_API UScriptStruct* Z_Construct_UScriptStruct_FMassFragment();
-	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
 	SIMVILLAGE_API UClass* Z_Construct_UClass_UInitializeColliderProccessor_NoRegister();
 	SIMVILLAGE_API UClass* Z_Construct_UClass_UInitializeColliderProccessor();
 	MASSENTITY_API UClass* Z_Construct_UClass_UMassObserverProcessor();
@@ -100,11 +99,6 @@ template<> SIMVILLAGE_API UScriptStruct* StaticStruct<FColliderFragment>()
 		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
 #endif
 		static void* NewStructOps();
-#if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam NewProp_Collider_MetaData[];
-#endif
-		static const UECodeGen_Private::FObjectPropertyParams NewProp_Collider;
-		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const UECodeGen_Private::FStructParams ReturnStructParams;
 	};
 #if WITH_METADATA
@@ -117,19 +111,6 @@ template<> SIMVILLAGE_API UScriptStruct* StaticStruct<FColliderFragment>()
 	{
 		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FColliderFragment>();
 	}
-#if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FColliderFragment_Statics::NewProp_Collider_MetaData[] = {
-		{ "Category", "ColliderFragment" },
-		{ "Comment", "/** The render mesh for a boid */" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Public/SimpleColliderTrait.h" },
-		{ "ToolTip", "The render mesh for a boid" },
-	};
-#endif
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UScriptStruct_FColliderFragment_Statics::NewProp_Collider = { "Collider", nullptr, (EPropertyFlags)0x001000000008000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FColliderFragment, Collider), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UScriptStruct_FColliderFragment_Statics::NewProp_Collider_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FColliderFragment_Statics::NewProp_Collider_MetaData)) };
-	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FColliderFragment_Statics::PropPointers[] = {
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FColliderFragment_Statics::NewProp_Collider,
-	};
 	const UECodeGen_Private::FStructParams Z_Construct_UScriptStruct_FColliderFragment_Statics::ReturnStructParams = {
 		(UObject* (*)())Z_Construct_UPackage__Script_simVillage,
 		Z_Construct_UScriptStruct_FMassFragment,
@@ -137,10 +118,10 @@ template<> SIMVILLAGE_API UScriptStruct* StaticStruct<FColliderFragment>()
 		"ColliderFragment",
 		sizeof(FColliderFragment),
 		alignof(FColliderFragment),
-		Z_Construct_UScriptStruct_FColliderFragment_Statics::PropPointers,
-		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FColliderFragment_Statics::PropPointers),
+		nullptr,
+		0,
 		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000205),
+		EStructFlags(0x00000201),
 		METADATA_PARAMS(Z_Construct_UScriptStruct_FColliderFragment_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FColliderFragment_Statics::Struct_MetaDataParams))
 	};
 	UScriptStruct* Z_Construct_UScriptStruct_FColliderFragment()
@@ -215,13 +196,13 @@ template<> SIMVILLAGE_API UScriptStruct* StaticStruct<FColliderFragment>()
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_Statics::ScriptStructInfo[] = {
-		{ FColliderFragment::StaticStruct, Z_Construct_UScriptStruct_FColliderFragment_Statics::NewStructOps, TEXT("ColliderFragment"), &Z_Registration_Info_UScriptStruct_ColliderFragment, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FColliderFragment), 984668652U) },
+		{ FColliderFragment::StaticStruct, Z_Construct_UScriptStruct_FColliderFragment_Statics::NewStructOps, TEXT("ColliderFragment"), &Z_Registration_Info_UScriptStruct_ColliderFragment, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FColliderFragment), 2170408305U) },
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_Statics::ClassInfo[] = {
 		{ Z_Construct_UClass_USimpleColliderTrait, USimpleColliderTrait::StaticClass, TEXT("USimpleColliderTrait"), &Z_Registration_Info_UClass_USimpleColliderTrait, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(USimpleColliderTrait), 4067774918U) },
 		{ Z_Construct_UClass_UInitializeColliderProccessor, UInitializeColliderProccessor::StaticClass, TEXT("UInitializeColliderProccessor"), &Z_Registration_Info_UClass_UInitializeColliderProccessor, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UInitializeColliderProccessor), 17671652U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_616764678(TEXT("/Script/simVillage"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_784924530(TEXT("/Script/simVillage"),
 		Z_CompiledInDeferFile_FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_Statics::ClassInfo),
 		Z_CompiledInDeferFile_FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_simVillage_Source_simVillage_Public_SimpleColliderTrait_h_Statics::ScriptStructInfo),
 		nullptr, 0);
